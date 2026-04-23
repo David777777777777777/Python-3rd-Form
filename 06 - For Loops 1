@@ -36,7 +36,7 @@ for i in range(number):
 number = int(input("Enter a number: ")) 
 print("Go!") 
 
- 
+ 1
 
  
 

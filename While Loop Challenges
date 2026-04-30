@@ -1,0 +1,19 @@
+password = "kebab"
+password = input('Please enter a password: ')
+while password == "kebab":
+ print ("correct password accepted")
+ break
+
+answer = "N"
+print("Are we there yet?")
+while answer != "Y":
+  print("Are we there yet?")
+  answer = str(input("Please respond, y or n: ").upper())
+else:
+  print("Yay! We are there!!")
+
+print("Press 1 for  choice or 2 to exit")
+StayInLoop = 1
+while StayInLoop != 2:
+  print("Exited")
+  StayInLoop = int(input("Please respond, 1 or 2: "))
